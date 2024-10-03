@@ -1,6 +1,7 @@
 'use strict';
 
 const {BigQuery} = require('@google-cloud/bigquery');
+const projectId = process.env.GOOGLE_CLOUD_PROJECT;
 
 async function listTables() {
   const bigqueryClient = new BigQuery({
@@ -18,7 +19,7 @@ async function listTables() {
 
 async function queryPublicDataset() {
   const bigqueryClient = new BigQuery({
-    projectId: 'magnetic-icon-436610-j4'
+    projectId: projectId
   });
 
   const queries = [
