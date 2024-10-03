@@ -1,4 +1,4 @@
-##Solana Google Cloud BigQuery JS
+## Solana Google Cloud BigQuery JS
 
 Solana is designed as a high performance blockchain optimized for use cases across finance, NFTs, payments, and gaming. This dataset, built and maintained by the Solana Community as part of the Google Cloud Public Datasets program, captures and publishes block data in near real-time.
 
